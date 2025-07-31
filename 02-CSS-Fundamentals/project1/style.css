@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-top: 10px solid #1098ad;
+  font-family: sans-serif;
+  color: #444;
+  position: relative;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* like button start */
+
+.like-btn {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* like button end */
+
+/* main header start */
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.main-header h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.main-header h1::first-letter {
+  font-style: normal;
+}
+
+.main-header nav {
+  font-size: 18px;
+}
+
+.main-header nav a:link {
+  color: #1098ad;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.main-header nav a:visited {
+  color: #1098ad;
+}
+
+.main-header nav a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.main-header nav a:active {
+  background-color: black;
+}
+
+/* main header end */
+
+/* article start */
+
+.main-article {
+  margin-bottom: 60px;
+}
+
+/* post header start */
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-header h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.post-header h2::before {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  right: -25px;
+  top: -10px;
+}
+
+.post-header .laura-jones-img {
+  width: 50px;
+  height: 50px;
+}
+
+.post-header .author {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.post-header .post-img {
+  width: 100%;
+  height: auto;
+}
+
+/* post header end */
+
+.main-article p {
+  font-size: 22px;
+}
+
+.main-article h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.main-article ol li,
+.main-article ul li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.main-article ol li:first-child,
+.main-article ul li:first-child {
+  font-weight: bold;
+}
+
+.main-article ol li:last-child,
+.main-article ul li:last-child {
+  margin-bottom: 0;
+}
+
+.main-article a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+.main-article a:visited {
+  color: #1098ad;
+}
+
+.main-article a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.main-article a:active {
+  background-color: black;
+}
+
+/* article end */
+
+/* aside start */
+
+.main-aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+
+.main-aside h4 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.main-aside ul {
+  list-style: none;
+}
+
+.main-aside ul li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.main-aside ul li img {
+  width: 75px;
+  height: 75px;
+}
+
+.main-aside ul li:last-child {
+  margin-bottom: 0;
+}
+
+.main-aside a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+.main-aside a:visited {
+  color: #1098ad;
+}
+
+.main-aside a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.main-aside a:active {
+  background-color: black;
+}
+
+.main-aside .related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* aside end */
+
+/* footer start */
+
+.copy-right {
+  font-size: 16px;
+}
+
+/* footer end */
