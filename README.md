@@ -31,3 +31,25 @@ This folder contains **two beginner-level HTML projects**, showcasing the founda
 - Working with lists, links, and images
 
 These projects were created during the initial phase of learning HTML and are intended to build familiarity with essential syntax and page structure.
+
+---
+
+### 📂 02-CSS-Fundamentals
+
+This folder continues from the **HTML fundamentals projects** and introduces the basics of **CSS (Cascading Style Sheets)**.  
+The goal is to apply **fundamental styling techniques** to the previous HTML structures, making the pages visually appealing and structured.
+
+this folder contains two projects : 📁 project1, 📁 project2
+In this projects, we begin styling the HTML content with CSS basics, including:
+
+- Resetting default margins and paddings  
+- Setting a consistent font family and color scheme  
+- Creating a header with navigation links  
+- Adding styled headings, paragraphs, and lists  
+- Applying hover and active states to links  
+
+Key concepts used:
+- CSS selectors (`element`, `.class`, `#id`)  
+- Pseudo-classes (`:hover`, `:active`, `:visited`)  
+- Pseudo-elements (`::before`, `::first-letter`)  
+- Basic layout using margins, paddings, and positioning  
