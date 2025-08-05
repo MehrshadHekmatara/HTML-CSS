@@ -53,3 +53,65 @@ Key concepts used:
 - Pseudo-classes (`:hover`, `:active`, `:visited`)  
 - Pseudo-elements (`::before`, `::first-letter`)  
 - Basic layout using margins, paddings, and positioning  
+
+---
+
+### 📂 03-CSS-Layouts
+
+This folder focuses on **CSS layout techniques**, showcasing three different approaches: **Float**, **Flexbox**, and **Grid**.  
+Each method is demonstrated through simple projects that continue from the previous folders.
+
+#### 📁 float
+
+The **float** property in CSS allows elements to be placed on the left or right side of their container, letting text and inline elements wrap around them.  
+Although widely replaced by modern layout systems, floats are still useful for understanding the history of CSS layouts.
+
+- **📁 project1**  
+  A simple layout where elements are aligned using the `float` property.  
+  Demonstrates clearing floats and basic page structuring.
+
+- **📁 project2**  
+  An extended version of project1, adding more sections and refining the float-based design.  
+
+Key concepts:
+- `float: left;` and `float: right;`  
+- The `clear` property to prevent overlap  
+- Using floats for multi-column layouts  
+
+#### 📁 flex
+
+The **Flexbox** layout module provides a more modern, flexible way to align and distribute space among elements in a container.  
+It is especially useful for creating responsive layouts.
+
+- **📁 project1**  
+  A basic page layout demonstrating the use of a flex container with items aligned horizontally.
+
+- **📁 project2**  
+  Adds vertical alignment, spacing, and more complex flex properties to structure content effectively.
+
+Key concepts:
+- `display: flex;`  
+- `justify-content` for horizontal alignment  
+- `align-items` for vertical alignment  
+- Flexible boxes that adapt to screen size  
+
+#### 📁 grid
+
+The **CSS Grid Layout** is a powerful system that allows developers to create complex, two-dimensional layouts with rows and columns.
+
+- **📁 project1**  
+  A simple grid demonstrating row and column definitions, with items placed into specific grid cells.
+
+- **📁 project2**  
+  A more advanced example with multiple sections, showing how to span rows and columns for a structured layout.
+
+Key concepts:
+- `display: grid;`  
+- `grid-template-columns` and `grid-template-rows`  
+- `grid-gap` for spacing  
+- `grid-column` and `grid-row` for positioning items  
+
+💡 These three layout techniques — Float, Flexbox, and Grid — build a strong foundation for modern web design.  
+Each project here gradually improves the page structure, helping to understand the evolution of CSS layouts.
+
+---
