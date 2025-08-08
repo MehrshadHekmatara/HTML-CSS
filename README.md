@@ -120,7 +120,7 @@ Each project here gradually improves the page structure, helping to understand t
 
 This folder focuses on enhancing the **visual design** and **UI quality** of a basic HTML/CSS project by applying design principles.
 
-#### 📁 starter
+#### 📁 starter files
 
 This folder contains a simple web page built using **plain HTML and basic CSS**. It represents the raw structure of the page without advanced styling or design improvements.
 
@@ -130,7 +130,7 @@ Key elements:
 - Default margins, paddings, and spacing
 - No visual enhancements (border-radius, shadows, etc.)
 
-#### 📁 final
+#### 📁 final files
 
 This is an enhanced version of the project in the `starter` folder.  
 It applies **UI/UX design principles** to make the page visually appealing and more user-friendly.
