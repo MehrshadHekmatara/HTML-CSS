@@ -147,3 +147,35 @@ Design improvements include:
 
 ---
 
+### 📂 05-Components
+
+This folder contains a collection of common **web components** built with HTML and CSS (and minimal JavaScript if needed).  
+Each subfolder demonstrates the implementation of a specific component used frequently in modern web development.
+
+#### 📁 01-Accordion
+An interactive **accordion** component that allows users to expand and collapse sections to reveal or hide content.  
+Useful for FAQs, collapsible menus, and content organization.
+
+#### 📁 02-Carousel
+A **carousel/slider** component for displaying multiple images or content items in a sliding format.  
+Includes navigation controls for switching between slides.
+
+#### 📁 03-Table
+A styled **HTML table** with improved visual design for readability.  
+Demonstrates table headers, alternating row colors, and spacing adjustments.
+
+#### 📁 04-Pagination
+A **pagination** component to navigate between multiple pages of content.  
+Includes active page highlighting and hover effects.
+
+#### 📁 05-Hero Section
+A **hero section** layout — the large banner area often seen at the top of web pages.  
+Includes a heading, subheading, and call-to-action button with attractive styling.
+
+#### 📁 06-Simple Web App
+A **simple web application** combining multiple components into a functional mini-project.  
+Demonstrates structuring a basic app layout and integrating interactive elements.
+
+💡 These components can be reused or adapted for larger projects, serving as a personal UI library for future development.
+
+---
