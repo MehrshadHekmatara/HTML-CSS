@@ -1,0 +1,55 @@
+.wrapper {
+    .komisiyon {
+        width: 1280px;
+        height: 568.5px;
+        position: absolute;
+        left: calc(50% - 1280px / 2);
+        top: 2332.1px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        .right {
+            width: 448px;
+            height: 100%;
+            margin-right: 50px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            & p {
+                font-size: 19px;
+            }
+            .line {
+                width: 70px;
+                height: 2px;
+                background-color: rgb(151, 27, 52);
+            }
+            .text {
+                width: 100%;
+                font-size: 14.9px;
+                color: rgb(117, 112, 112);
+                line-height: 30px;
+            }
+        }
+        .left {
+            width: 672px;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            .logo {
+                width: 218.66px;
+                height: 112.13px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                & p {
+                    font-size: 14px;
+                    &:nth-of-type(2) {
+                        font-size: 12px;
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+}

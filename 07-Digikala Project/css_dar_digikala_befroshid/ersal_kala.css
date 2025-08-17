@@ -1,0 +1,56 @@
+.wrapper {
+  .ersal_kala {
+    width: 100%;
+    height: 402px;
+    background-color: #a41935;
+    position: absolute;
+    left: 0;
+    top: 2960.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .right {
+      width: 448px;
+      height: 100%;
+      margin-right: 80px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 110px;
+      & span {
+        color: whitesmoke;
+      }
+      & div {
+        width: 100%;
+        margin-top: 46px;
+        & p {
+          width: 448px;
+          font-size: 14.5px;
+          height: 99.75px;
+          color: whitesmoke;
+          line-height: 30px;
+          & span {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-color: beige;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .left {
+        width: 722px;
+        height: 400px;
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+  }
+}

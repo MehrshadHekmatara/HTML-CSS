@@ -1,0 +1,116 @@
+.wrapper {
+  .dastan {
+    width: 1280px;
+    height: 497.89px;
+    position: absolute;
+    left: calc(50% - 1280px / 2);
+    top: 3362.6px;
+    margin-top: 30px;
+    .top {
+      width: calc(100% - 40px);
+      height: 39.89px;
+      margin-top: 20px;
+      margin-right: 40px;
+      & p {
+        font-size: 20px;
+      }
+      .line {
+        width: 70px;
+        height: 2px;
+        background-color: rgb(146, 27, 51);
+        margin-top: 15px;
+      }
+    }
+    .buttom {
+      width: 1200px;
+      height: 408px;
+      margin: 30px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 40px;
+      .right {
+        width: 712px;
+        height: 100%;
+        padding: 8px;
+        border: 1px solid rgba(209, 209, 209, 0.651);
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        & video {
+          width: 694px;
+          height: 390px;
+          object-fit: cover;
+        }
+      }
+      .left {
+        width: 500px;
+        height: 250.41px;
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          row-gap: 10px;
+          & span {
+            color: gray;
+            font-size: 16px;
+            &:nth-of-type(2) {
+              font-size: 12px;
+            }
+          }
+          & p {
+            width: 312px;
+            height: 104.13px;
+            font-size: 12px;
+            text-align: start;
+            color: rgb(99, 97, 97);
+            line-height: 20px;
+          }
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .swiper-pagination-bullet {
+          background-color: rgb(243, 59, 59);
+          width: 10px;
+          height: 10px;
+        }
+
+        .swiper-button-prev {
+          width: 30px;
+          height: 30px;
+          background-color: white;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          border: 1px solid rgb(204, 197, 197);
+          &::after {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8px;
+            font-weight: bold;
+            color: rgb(68, 65, 65);
+          }
+        }
+      }
+    }
+  }
+}

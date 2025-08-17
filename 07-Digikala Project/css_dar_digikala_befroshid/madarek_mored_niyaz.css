@@ -1,0 +1,60 @@
+.wrapper {
+    .madarek_mored_niyaz {
+        width: 1280px;
+        height: 339.98px;
+        position: absolute;
+        left: calc(50% - 1280px / 2);
+        top: 1952.12px;
+        margin-top: 40px;
+        background-color: #FFFAFA;
+        .top {
+            width: 100%;
+            height: 73.89px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 15px;
+            padding-right: 65px;
+            & p {
+                font-size: 20px;
+            }
+            .line {
+                width: 70px;
+                height: 2px;
+                background-color: rgb(114, 17, 37);
+            }
+        }
+        .buttom {
+            width: 100%;
+            height: 170.09px;
+            display: flex;
+            justify-content: center;
+            .right, .left {
+                width: 480px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                row-gap: 15px;
+                justify-content: center;
+                background-color: white;
+                & div {
+                    width: 100%;
+                    height: 33.59px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    column-gap: 5px;
+                    & p {
+                        color: #424750;
+                        font-size: 18px;
+                    }
+                }
+                & p {
+                    color: #424750c7;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

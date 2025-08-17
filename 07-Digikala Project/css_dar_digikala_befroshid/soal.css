@@ -1,0 +1,244 @@
+.wrapper {
+  .soal {
+    width: 1280px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    top: 3890.49px;
+    border: 1px solid rgba(196, 194, 194, 0.877);
+    background-color: #fafafa;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    .top {
+      width: 100%;
+      height: 73.89px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 15px;
+      padding-right: 40px;
+      & p {
+        font-size: 20px;
+      }
+      .line {
+        width: 70px;
+        height: 2px;
+        background-color: rgb(155, 19, 46);
+      }
+    }
+    .container {
+      width: 1198px;
+      height: auto;
+      .child {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(172, 169, 169, 0.63);
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        & div {
+          width: 100%;
+          height: auto;
+          position: relative;
+          & label {
+            direction: ltr;
+            width: 100%;
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+          }
+        }
+        input[type="radio"] {
+          display: none;
+        }
+        & p {
+          font-size: 16px;
+        }
+      }
+      .one,
+      .two,
+      .four,
+      .five,
+      .six,
+      .seven,
+      .eight,
+      .nine {
+        #show1:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+        .text {
+          width: 100%;
+          height: 60.19px;
+          display: none;
+          position: relative;
+          & p {
+            width: 1157px;
+            height: 49.09px;
+            margin-top: 10px;
+            font-size: 14px;
+            color: gray;
+            line-height: 25px;
+            & a {
+              color: red;
+            }
+          }
+          & label {
+            position: absolute;
+            top: -20px;
+          }
+        }
+      }
+      .two {
+        #show2:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+      .three,
+      .ten {
+        #show3:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+        .text {
+          width: 100%;
+          display: none;
+          position: relative;
+          & p {
+            width: 100%;
+            margin-top: 10px;
+            font-size: 13.5px;
+            color: gray;
+            line-height: 25px;
+            & a {
+              color: red;
+            }
+          }
+          & label {
+            position: absolute;
+            top: -20px;
+          }
+        }
+      }
+      .four {
+        #show4:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+      .five {
+        #show5:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+      .six {
+        #show6:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+      .seven {
+        #show7:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+      .eight {
+        #show8:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+      .nine {
+        #show9:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+      .ten {
+        #show10:checked {
+          ~ .divv {
+            & label {
+              display: none;
+            }
+          }
+          ~ .text {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
