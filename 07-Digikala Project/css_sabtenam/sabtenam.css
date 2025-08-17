@@ -1,0 +1,127 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .sabtenam {
+    width: 400px;
+    height: 439.84px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 84px;
+    border: 1px solid #e0e0e2;
+    padding: 32px;
+    .inner {
+      width: 334px;
+      height: 373.844px;
+      .logo {
+        display: block;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & a {
+          display: block;
+          width: 150px;
+          height: 40px;
+          & svg {
+            cursor: pointer;
+          }
+        }
+      }
+      .text1 {
+        width: 100%;
+        height: 39.891px;
+        margin-top: 16px;
+        line-height: 39.81px;
+        & h1 {
+          font-family: sabtenam-font;
+          font-size: 1.2rem;
+          font-weight: 500;
+          & span {
+            font-weight: 600;
+          }
+        }
+      }
+      .text2,
+      .text3 {
+        width: 100%;
+        height: 26.031px;
+        margin-top: 16px;
+        line-height: 26.031px;
+        & p {
+          font-family: sabtenam-font;
+          font-size: 12px;
+        }
+      }
+      .text3 {
+        margin-top: unset;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: flex-end;
+      }
+      .input {
+        width: 100%;
+        height: 154.03px;
+        & form {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          & p {
+            width: 100%;
+            height: 26.03px;
+            font-family: sabtenam-font;
+            font-size: 12px;
+            padding-bottom: auto;
+            color: #a30a1e;
+            margin-top: unset;
+            display: block;
+          }
+          input[type="email"],
+          input[type="submit"] {
+            width: 100%;
+            height: 48px;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            outline: unset;
+            border: 1px solid #ef4056;
+          }
+          input[type="email"] {
+            padding: 10px;
+          }
+          input[type="submit"] {
+            background-color: #ef4056;
+            font-family: sabtenam-font;
+            font-size: 13px;
+            font-weight: bold;
+            color: whitesmoke;
+            cursor: pointer;
+          }
+        }
+      }
+      & p {
+        width: 100%;
+        height: 23.859px;
+        margin-top: 16px;
+        color: #676885;
+        font-size: 11px;
+        font-family: sabtenam-font;
+        & a {
+          text-decoration: none;
+          color: #6dbed3;
+        }
+      }
+    }
+  }
+}
