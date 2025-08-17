@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+@font-face {
+  font-family: page1-font;
+  src: url(../fonts/IRANYekanWeb-Medium.eot);
+  src: url(../fonts/IRANYekanWeb-Medium.ttf);
+  src: url(../fonts/IRANYekanWeb-Medium.woff);
+  src: url(../fonts/IRANYekanWeb-Medium.woff2);
+}
+
+& a {
+  text-decoration: none !important;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+& span, & p, & div, & a, & h4, & h1, & h3, & del {
+  font-family: page1-font;
+}
