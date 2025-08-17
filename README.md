@@ -179,3 +179,35 @@ Demonstrates structuring a basic app layout and integrating interactive elements
 💡 These components can be reused or adapted for larger projects, serving as a personal UI library for future development.
 
 ---
+
+### 📂 07-Digikala Project
+
+This project is a **clone implementation of the Digikala website** ([digikala.com](https://www.digikala.com/)) built with **HTML and CSS**.  
+It is designed for **desktop view only** and is **not responsive**.
+
+---
+
+#### 🔹 Features
+
+- Desktop layout inspired by Digikala’s homepage  
+- Use of modern **HTML structure** and **CSS styling**  
+- Implementation of navigation menus, product sections, and banners  
+- Integrated **slider** using the [Swiper](https://swiperjs.com/) library  
+
+---
+
+#### 📦 Technologies Used
+
+- **HTML5**  
+- **CSS3**  
+- **Swiper.js** (for carousel/slider functionality)  
+
+---
+
+#### ⚙️ Installation & Usage
+
+1. Clone or download the repository.  
+2. Navigate to the `07-Digikala Project` folder.  
+3. Open the `index.html` file in your browser to view the project.
+
+---
