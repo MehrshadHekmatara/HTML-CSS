@@ -1,0 +1,228 @@
+@keyframes anime1 {
+  from {
+    background-image: url(../../images/xxl/d2f37c9d73e005a330fea4d3fe54b8a1.jfif);
+  }
+  to {
+    background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+  }
+}
+
+@keyframes anime6 {
+  from {
+    background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+  }
+  to {
+    background-image: url(../../images/xxl/d2f37c9d73e005a330fea4d3fe54b8a1.jfif);
+  }
+}
+
+@keyframes anime2 {
+  from {
+    background-image: url(../../images/xxl/8993b7585672644e285e96ec364766e6.jfif);
+  }
+  to {
+    background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+  }
+}
+@keyframes anime7 {
+  from {
+    background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+  }
+  to {
+    background-image: url(../../images/xxl/8993b7585672644e285e96ec364766e6.jfif);
+  }
+}
+
+@keyframes anime3 {
+  from {
+    background-image: url(../../images/xxl/4a70a3b153b93b377efba5bed442d5cb.jfif);
+  }
+  to {
+    background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+  }
+}
+@keyframes anime8 {
+    from {
+      background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+    }
+    to {
+      background-image: url(../../images/xxl/4a70a3b153b93b377efba5bed442d5cb.jfif);
+    }
+  }
+
+@keyframes anime4 {
+  from {
+    background-image: url(../../images/xxl/5caafed94da4367cf8516b35a89f7930.jfif);
+  }
+  to {
+    background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+  }
+}
+@keyframes anime9 {
+    from {
+      background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+    }
+    to {
+      background-image: url(../../images/xxl/5caafed94da4367cf8516b35a89f7930.jfif);
+    }
+  }
+
+@keyframes anime5 {
+  from {
+    background-image: url(../../images/xxl/fba644d322541be72690ac6ec0656180.jfif);
+  }
+  to {
+    background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+  }
+}
+@keyframes anime10 {
+    from {
+      background-image: url(../../images/xxl/goshvare-jenaghi.jpg);
+    }
+    to {
+      background-image: url(../../images/xxl/fba644d322541be72690ac6ec0656180.jfif);
+    }
+  }
+
+.shop_category {
+  width: 100%;
+  height: 619px;
+  position: absolute;
+  top: 965px;
+  .top {
+    width: 100%;
+    height: 109px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .inner_top {
+      display: none;
+    }
+    & p {
+      color: #0c0606;
+      font-family: font2;
+      width: 24%;
+      height: 78px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: clamp(35px, 2vw, 40px);
+      &:nth-of-type(2) {
+        width: 18%;
+        height: 45px;
+        font-size: clamp(20px, 1vw, 28px);
+        padding-bottom: 20px;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .child1,
+    .child2,
+    .child5,
+    .child3,
+    .child4 {
+      width: 16%;
+      height: 337px;
+      margin-top: 44px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &:hover {
+        .image1,
+        .image2,
+        .image3,
+        .image4,
+        .image5 {
+          animation-name: anime1;
+          animation-duration: 500ms;
+          animation-fill-mode: forwards;
+          animation-direction: alternate;
+          animation-timing-function: ease-out;
+        }
+        .image2 {
+          animation-name: anime2;
+        }
+        .image3 {
+          animation-name: anime3;
+        }
+        .image4 {
+          animation-name: anime4;
+        }
+        .image5 {
+          animation-name: anime5;
+        }
+        .text {
+          color: gold;
+        }
+      }
+      .image1,
+      .image2,
+      .image3,
+      .image4,
+      .image5 {
+        width: 100%;
+        height: 276px;
+        background-image: url(../../images/xxl/d2f37c9d73e005a330fea4d3fe54b8a1.jfif);
+        background-size: cover;
+        background-position: center;
+        border-left: 1px solid #d8d1cebd;
+        border-right: 1px solid #d8d1cebd;
+        border-bottom: 4px solid #d8d1cebd;
+        animation-name: anime6;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
+        animation-timing-function: ease-out;
+      }
+      .image2 {
+        background-image: url(../../images/xxl/8993b7585672644e285e96ec364766e6.jfif);
+        animation-name: anime7;
+      }
+      .image3 {
+        background-image: url(../../images/xxl/4a70a3b153b93b377efba5bed442d5cb.jfif);
+        animation-name: anime8;
+      }
+      .image4 {
+        background-image: url(../../images/xxl/5caafed94da4367cf8516b35a89f7930.jfif);
+        animation-name: anime9;
+      }
+      .image5 {
+        background-image: url(../../images/xxl/fba644d322541be72690ac6ec0656180.jfif);
+        animation-name: anime10;
+      }
+      & img {
+        width: 100%;
+        height: 276px;
+        object-fit: cover;
+        border-left: 1px solid #d8d1cebd;
+        border-right: 1px solid #d8d1cebd;
+        border-bottom: 4px solid #d8d1cebd;
+      }
+      .text {
+        width: 58%;
+        height: 40px;
+        font-family: font2;
+        color: #0c0606;
+        text-align: center;
+        line-height: 40px;
+        font-size: clamp(20px, 1vw, 24px);
+        transition: 500ms;
+        -webkit-transition: 500ms;
+        -moz-transition: 500ms;
+        -ms-transition: 500ms;
+        -o-transition: 500ms;
+      }
+    }
+    .child1 {
+      margin-left: 106px;
+    }
+    .child5 {
+      margin-right: 93px;
+    }
+  }
+}

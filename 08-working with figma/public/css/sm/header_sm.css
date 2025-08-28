@@ -1,0 +1,133 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  .top {
+    width: 100%;
+    height: 29px;
+    background-color: #0c0606;
+  }
+  .bottom {
+    width: 100%;
+    height: 59px;
+    background-color: #1c1b17;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    .search1 {
+      position: absolute;
+      background-color: #1c1b17;
+      width: 100%;
+      height: 32px;
+      top: 100%;
+      display: none;
+      & div {
+        width: 100%;
+        height: 32px;
+        border-bottom: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        & input {
+          width: 80%;
+          outline: none;
+          border: none;
+          background-color: transparent;
+        }
+        & p {
+          font-size: 15px;
+          color: white;
+        }
+      }
+    }
+    .close {
+      margin-left: 50px;
+      height: 37px;
+      width: 8%;
+      cursor: pointer;
+    }
+    .close2 {
+      display: none;
+      margin-left: 50px;
+      height: 37px;
+      width: 8%;
+      cursor: pointer;
+    }
+    .left {
+      width: 100%;
+      height: 100vh !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      display: none;
+      position: absolute;
+      top: 100%;
+      z-index: 5;
+      background-color: #1c1b17;
+      & a {
+        font-size: clamp(20px, 1vw, 25px);
+        color: #ffffffab;
+        text-decoration: none;
+        margin-bottom: 1px;
+      }
+      & span {
+        & svg {
+          &:hover {
+            & path {
+              transition: 500ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms;
+              fill: rgba(185, 133, 91, 0.849);
+            }
+          }
+        }
+      }
+    }
+    .center {
+      width: 158px;
+      height: 53px;
+      position: absolute;
+      left: calc(50% - 158px / 2);
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .right_one {
+      display: none;
+    }
+    .right_two {
+      display: none;
+    }
+    .right3 {
+      margin-left: auto;
+      margin-right: 40.7px;
+    }
+  }
+}
+
+a,
+p {
+  font-family: font1;
+}
+a {
+  cursor: default;
+}
+
+.d_flex {
+  display: flex !important;
+}
+.d_none {
+  display: none !important;
+}
+.d_block {
+  display: block !important;
+}

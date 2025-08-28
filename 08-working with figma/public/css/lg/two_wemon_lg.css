@@ -1,0 +1,53 @@
+.two_wemon {
+    width: 100%;
+    background-image: url(../../images/lg/8f11b6e6fe2d75a9481922d556d4227e\ .jpg);
+    height: 1143px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    top: 115px;
+    .top {
+      width: 66%;
+      height: 98px;
+      margin-bottom: 26px;
+      margin-left: 30px;
+      & p {
+        font-size: clamp(60px, 5vw, 81px);
+        color: white;
+        font-family: font2;
+      }
+    }
+    .center {
+      width: 82%;
+      height: 96px;
+      margin-bottom: 43px;
+      margin-left: 30px;
+      & p {
+        font-family: font3;
+        font-size: clamp(25px, 3.8vw, 39px);
+        color: white;
+      }
+    }
+    & button {
+      width: 16%;
+      height: 55px;
+      background-color: transparent;
+      border: 1px solid #e1dbd7;
+      color: #ffffffd9;
+      font-size: clamp(15px, 2.5vw, 18px);
+      transition: 300ms;
+      -webkit-transition: 300ms;
+      -moz-transition: 300ms;
+      -ms-transition: 300ms;
+      -o-transition: 300ms;
+      margin-bottom: 187px;
+      margin-left: 30px;
+      &:hover {
+        background-color: #ffffffd9;
+      }
+    }
+  }
+  

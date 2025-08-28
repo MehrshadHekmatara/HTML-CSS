@@ -1,0 +1,91 @@
+.trending {
+  width: 100%;
+  height: 619px;
+  position: absolute;
+  top: 3658px;
+  .top {
+    width: 100%;
+    height: 109px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & p {
+      color: #0c0606;
+      font-family: font2;
+      width: 24%;
+      height: 78px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: clamp(35px, 2vw, 40px);
+      text-align: center;
+      &:nth-of-type(2) {
+        width: 25%;
+        height: 45px;
+        font-size: clamp(18px, 1.7vw, 28px);
+        padding-bottom: 20px;
+        text-align: center;
+      }
+    }
+  }
+  .content {
+    height: 387px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    .child1,
+    .child2,
+    .child3,
+    .child4,
+    .child5 {
+      width: 19%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & img {
+        width: 100%;
+        height: 276px;
+        border-left: 1px solid #d8d1cebd;
+        border-right: 1px solid #d8d1cebd;
+        border-bottom: 3px solid #d8d1cebd;
+        object-fit: cover;
+      }
+      .text,
+      .title,
+      .price {
+        width: 75%;
+        height: 40px;
+        font-family: font2;
+        font-size: clamp(18px, 1.8vw, 22px);
+        color: #0c0606;
+        text-align: center;
+      }
+      .title,
+      .price {
+        width: 59%;
+        color: #000000b2;
+        font-size: 18px;
+        margin-top: 11px;
+        text-align: center;
+      }
+      .price {
+        color: #0c0606;
+        font-size: 24px;
+        margin-bottom: 49px;
+      }
+    }
+  }
+}
+
+.slider_lg {
+  display: none;
+}
+
+.slider_sm {
+  display: none;
+}
